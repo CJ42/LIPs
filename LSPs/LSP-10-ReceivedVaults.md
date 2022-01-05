@@ -34,8 +34,8 @@ References issued smart contract vaults.
     "name": "LSP10Vaults[]",
     "key": "0x55482936e01da86729a45d2b87a6b1d3bc582bea0ec00e38bdb340e3af6f9f06",
     "keyType": "Array",
-    "valueContent": "Address",
-    "valueType": "address"
+    "valueType": "address",
+    "valueContent": "Address"
 }
 ```
 
@@ -51,8 +51,8 @@ The `valueContent` MUST be constructed as follows: `bytes8(indexNumber) + bytes4
     "name": "LSP10VaultsMap:<address>",
     "key": "0x192448c3c0f88c7f00000000<address>",
     "keyType": "Mapping",
-    "valueContent": "Mixed",
-    "valueType": "bytes"
+    "valueType": "bytes",
+    "valueContent": "Mixed"
 }
 ```
 
@@ -70,15 +70,15 @@ ERC725Y JSON Schema `LSP10ReceivedVaults`:
         "name": "LSP10VaultsMap:<address>",
         "key": "0x192448c3c0f88c7f00000000<address>",
         "keyType": "Mapping",
-        "valueContent": "Mixed",
-        "valueType": "bytes"
+        "valueType": "bytes",
+        "valueContent": "Mixed"
     },
     {
         "name": "LSP10Vaults[]",
         "key": "0x55482936e01da86729a45d2b87a6b1d3bc582bea0ec00e38bdb340e3af6f9f06",
         "keyType": "Array",
-        "valueContent": "Address",
-        "valueType": "address"
+        "valueType": "address",
+        "valueContent": "Address"
     }
 ]
 ```
